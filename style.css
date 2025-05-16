@@ -1,0 +1,27 @@
+body{background-image: url(assets/fondo.jpeg);
+background-size: cover;}
+
+p{color:rgb(0, 0, 0); font-size: 25px; text-align:center;}
+p1{color:rgb(0, 0, 0);font-size: 18px; text-align:center;}
+
+/*clases*/
+.entrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+}
+
+.letrero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.descripcion {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}

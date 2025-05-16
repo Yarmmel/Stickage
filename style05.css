@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  height: 100vh;
+}
+
+.pestana {
+  width: 150px;
+  background-color: #ead1ff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-right: 2px solid #ccc;
+
+  overflow-y: auto;       /*croll vertical */
+  max-height: 100vh;
+}
+
+.sticker {
+  width: 80px;
+  cursor: grab;
+}
+
+.zona-pegar {
+    background-image: url('assets/refri.jpg');
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center;
+
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: #c0e4f7;
+}
+.pcocina {
+    align-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+}

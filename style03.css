@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  height: 100vh;
+}
+
+.pestana {
+  width: 150px;
+  background-color: #b7e0ff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-right: 2px solid #ccc;
+
+    overflow-y: auto;       /*croll vertical */
+  max-height: 100vh;
+}
+
+.sticker {
+  width: 80px;
+  cursor: grab;
+}
+
+.zona-pegar {
+    background-image: url('assets/habitacion.jpg');
+  background-size: cover;        /* Ajusta para cubrir toda la pantalla */
+  background-repeat: no-repeat;  /* Evita que se repita */
+  background-position: center;
+
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: #b7e0ff;
+}
+
+.pcuarto {
+  font-size: 20px;
+}
+

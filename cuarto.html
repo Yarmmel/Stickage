@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuarto</title>
+    <link rel="stylesheet" href="style03.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script> <!--Script para generar una biblioteca y poder descargar-->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <!--pestana que contiene los stickers-->
+  <div class="contenedor">
+    <div class="pestana">
+
+      <p>Pasa el cursor sobre los stickers para ver su significado.</p>
+      <img src="assets/sti1.png" class="sticker" draggable="true" title="Decisiones">
+      <img src="assets/sti2.png" class="sticker" draggable="true" title="El futuro">
+      <img src="assets/sti3.png" class="sticker" draggable="true" title="El pasado">
+      <img src="assets/sti4.png" class="sticker" draggable="true" title="Posibles escenarios">
+      <img src="assets/sti5.png" class="sticker" draggable="true" title="Mi forma de actuar">
+      <img src="assets/sti6.png" class="sticker" draggable="true" title="Mi apariencia">
+      <img src="assets/sti7.png" class="sticker" draggable="true" title="Cosas que dije">
+      <img src="assets/sti8.png" class="sticker" draggable="true" title="Lo que piensen de mi">
+      <img src="assets/sti9.png" class="sticker" draggable="true" title="Situaciones sociales">
+      <img src="assets/sti10.png" class="sticker" draggable="true" title="No ser suficiente">
+    </div>
+<!--zona para pegar los stickers-->
+    <div class="zona-pegar" id="zona-pegar">
+      <p class="pcuarto">Pega los stickers que representen, en lo que mas sobrepiensas:</p>
+    </div>
+  </div>
+
+  <!--boton de descarga-->
+  <div class="botones">
+        <button id="descargar">Descargar</button>
+        <button id="regresar">Regresar al Lobby</button>
+      </div>
+
+  <script src="script03.js"></script>
+</body>
+</html>
